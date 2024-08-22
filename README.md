@@ -1,7 +1,6 @@
 # TCG-MTS
 Temporal Gaussian Copula For Clinical MTS
 # Introducation
-The TGC model is a medical multivariate time series imputation model based on the Gaussian Copula. The TGC leverages the Gaussian Copula model to explore cross-variable and temporal relationships based on Gaussian latent representations, and outputs the correlation matrices between different feature latent variables. Extensive experiments conducted on three widely used datasets demonstrate that the TGC model outperforms traditional methods as well as deep learning-based approaches. Furthermore, the TGC exhibits strong robustness when dealing with test datasets with high rates of missingness.
-## Python Environment
+The TGC is a novel multivariate time series imputation approach. By employing a Gaussian Copula framework, the TGC effectively captures cross-variable and temporal dependencies within the data through the estimation of Gaussian latent representations. A key advantage of the TGC lies in its ability to output correlation matrices between different feature latent variables, providing valuable insights into the underlying relationships. Rigorous empirical evaluations on three commonly used datasets have consistently demonstrated the TGC's superior performance compared to both traditional imputation methods and deep learning-based techniques. Moreover, the TGC exhibits remarkable robustness when handling test datasets with high levels of missingness.
 gcimpute
 pypots
